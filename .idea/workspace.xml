@@ -157,7 +157,7 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="width" value="1760" />
     <option name="height" value="1090" />
@@ -370,7 +370,7 @@
       <workItem from="1615879859876" duration="4013000" />
       <workItem from="1617764333411" duration="15884000" />
       <workItem from="1617888094977" duration="1811000" />
-      <workItem from="1634348857459" duration="446000" />
+      <workItem from="1634348857459" duration="817000" />
     </task>
     <servers />
   </component>
@@ -407,10 +407,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39529000" />
+    <option name="totallyTimeSpent" value="39900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25402144" />
