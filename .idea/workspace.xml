@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/guiguJava8_lambdaday03_02MethodRef.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/methodRef/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/methodRef/MethodRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday03_01LocalFunctionInterface/src/com/localInterface/TestLocalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_01LocalFunctionInterface/src/com/localInterface/TestLocalInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,25 +186,60 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\java\IdeaProjects\java_Basic\guiguJava8_lambdaday02_02functionalInterface\src" />
+      <recent name="F:\study\java\IdeaProjects\java_Basic\designPattern_01StrategistModel\src\com\design\case1" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.methodRef" />
       <recent name="com.lambdaPratice3" />
       <recent name="com.lambdaPratice1" />
       <recent name="com.pratice" />
       <recent name="com.lambda.case1" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\study\java\IdeaProjects\java_Basic\guiguJava8_lambdaday02_02functionalInterface\src" />
-      <recent name="F:\study\java\IdeaProjects\java_Basic\designPattern_01StrategistModel\src\com\design\case1" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLocalInterface.testPredicate">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MethodRef.test2">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodRef.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday03_02MethodRef" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.methodRef.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.methodRef" />
+      <option name="MAIN_CLASS_NAME" value="com.methodRef.MethodRef" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodRef.testMethodRef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday03_02MethodRef" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.methodRef.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.methodRef" />
+      <option name="MAIN_CLASS_NAME" value="com.methodRef.MethodRef" />
+      <option name="METHOD_NAME" value="testMethodRef" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,22 +255,6 @@
       <option name="PACKAGE_NAME" value="com.localInterface" />
       <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
       <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLocalInterface.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.localInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.localInterface" />
-      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
-      <option name="METHOD_NAME" value="testConsumer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,29 +292,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocalInterface.testSupplier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.localInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.localInterface" />
-      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
-      <option name="METHOD_NAME" value="testSupplier" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MethodRef.test2" />
+        <item itemvalue="JUnit.MethodRef.testMethodRef" />
         <item itemvalue="JUnit.TestLocalInterface.testPredicate" />
         <item itemvalue="JUnit.TestLocalInterface.testFunction" />
         <item itemvalue="JUnit.TestLocalInterface.test3" />
-        <item itemvalue="JUnit.TestLocalInterface.testSupplier" />
-        <item itemvalue="JUnit.TestLocalInterface.testConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +321,8 @@
       <workItem from="1617764333411" duration="15884000" />
       <workItem from="1617888094977" duration="1811000" />
       <workItem from="1634348857459" duration="817000" />
-      <workItem from="1634371183989" duration="3825000" />
+      <workItem from="1634371183989" duration="4198000" />
+      <workItem from="1634434024600" duration="1988000" />
     </task>
     <servers />
   </component>
@@ -407,6 +413,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/guiguJava8_lambdaday01_01lambda/designPattern_01StrategistModel.iml" />
