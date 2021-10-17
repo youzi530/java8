@@ -4,7 +4,9 @@ import org.junit.Test;
 
 import java.io.PrintStream;
 import java.util.Comparator;
+import java.util.function.BiPredicate;
 import java.util.function.Consumer;
+import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 public class MethodRef {
@@ -14,8 +16,8 @@ public class MethodRef {
      * <p>
      * 三种使用方法：
      * 对象::实例方法名
-     * 类::静态方法
-     * 类::实例方法
+     * 类::静态方法名
+     * 类::实例方法名
      */
 
     @Test
@@ -58,4 +60,20 @@ public class MethodRef {
 
         Comparator<Integer> com1 = Integer::compare;
     }
+
+
+    @Test
+    /**
+     * 3、类::实例方法名
+     *
+     * 适用：lambda的一个参数 点方法，另外一个参数是这个方法的参数    (x, y) -> x.equals(y)
+     */
+    public void test4() {
+        BiPredicate<String, String> biPredicate = (x, y) -> x.equals(y);
+
+        BiPredicate<String, String> biPredicate1 = String::equals;
+    }
+
+
+    
 }

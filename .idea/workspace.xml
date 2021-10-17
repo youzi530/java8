@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/guiguJava8_lambdaday03_02MethodRef.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/methodRef/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/methodRef/MethodRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/methodRef/MethodRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/methodRef/MethodRef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +319,7 @@
       <workItem from="1617888094977" duration="1811000" />
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
-      <workItem from="1634434024600" duration="1988000" />
+      <workItem from="1634434024600" duration="2964000" />
     </task>
     <servers />
   </component>
