@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/construtRef/ConstructRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/construtRef/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday03_02MethodRef/com/methodRef/MethodRef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday03_02MethodRef/com/methodRef/MethodRef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/arrayRef/ArrayRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/arrayRef/ArrayRef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +195,7 @@
       <recent name="com.pratice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConstructRef.test1">
+  <component name="RunManager" selected="JUnit.ArrayRef.test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -207,6 +205,22 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayRef.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday03_02MethodRef" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arrayRef.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arrayRef" />
+      <option name="MAIN_CLASS_NAME" value="com.arrayRef.ArrayRef" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -275,29 +289,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocalInterface.testPredicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.localInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.localInterface" />
-      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
-      <option name="METHOD_NAME" value="testPredicate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayRef.test" />
         <item itemvalue="JUnit.ConstructRef.test1" />
         <item itemvalue="JUnit.ConstructRef.test" />
         <item itemvalue="JUnit.MethodRef.test2" />
         <item itemvalue="JUnit.MethodRef.testMethodRef" />
-        <item itemvalue="JUnit.TestLocalInterface.testPredicate" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +319,7 @@
       <workItem from="1617888094977" duration="1811000" />
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
-      <workItem from="1634434024600" duration="6089000" />
+      <workItem from="1634434024600" duration="6988000" />
     </task>
     <servers />
   </component>
