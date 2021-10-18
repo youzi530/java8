@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/construtRef/ConstructRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/construtRef/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/methodRef/MethodRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/src/com/methodRef/MethodRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday03_02MethodRef/com/methodRef/MethodRef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday03_02MethodRef/com/methodRef/MethodRef.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,14 +190,14 @@
       <recent name="F:\study\java\IdeaProjects\java_Basic\designPattern_01StrategistModel\src\com\design\case1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.construtRef" />
       <recent name="com.methodRef" />
       <recent name="com.lambdaPratice3" />
       <recent name="com.lambdaPratice1" />
       <recent name="com.pratice" />
-      <recent name="com.lambda.case1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MethodRef.test2">
+  <component name="RunManager" selected="JUnit.ConstructRef.test1">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -205,6 +207,38 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructRef.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday03_02MethodRef" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.construtRef.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.construtRef" />
+      <option name="MAIN_CLASS_NAME" value="com.construtRef.ConstructRef" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructRef.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday03_02MethodRef" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.construtRef.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.construtRef" />
+      <option name="MAIN_CLASS_NAME" value="com.construtRef.ConstructRef" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,38 +275,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocalInterface.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.localInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.localInterface" />
-      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLocalInterface.testFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.localInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.localInterface" />
-      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
-      <option name="METHOD_NAME" value="testFunction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestLocalInterface.testPredicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
       <extension name="coverage">
@@ -291,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConstructRef.test1" />
+        <item itemvalue="JUnit.ConstructRef.test" />
         <item itemvalue="JUnit.MethodRef.test2" />
         <item itemvalue="JUnit.MethodRef.testMethodRef" />
         <item itemvalue="JUnit.TestLocalInterface.testPredicate" />
-        <item itemvalue="JUnit.TestLocalInterface.testFunction" />
-        <item itemvalue="JUnit.TestLocalInterface.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +321,7 @@
       <workItem from="1617888094977" duration="1811000" />
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
-      <workItem from="1634434024600" duration="2964000" />
+      <workItem from="1634434024600" duration="6089000" />
     </task>
     <servers />
   </component>
