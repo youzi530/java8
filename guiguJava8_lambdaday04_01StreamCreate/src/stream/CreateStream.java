@@ -34,7 +34,7 @@ import java.util.stream.Stream;
  * 3、终止操作(终端操作)：一个终止操作，执行中间操作链，并产生结果
  *
  */
-public class TestStreamApi1 {
+public class CreateStream {
 
     @Test
     public void test(){

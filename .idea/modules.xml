@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/guiguJava8_lambdaday03_01LocalFunctionInterface/guiguJava8_lambdaday03_01LocalFunctionInterface.iml" filepath="$PROJECT_DIR$/guiguJava8_lambdaday03_01LocalFunctionInterface/guiguJava8_lambdaday03_01LocalFunctionInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/guiguJava8_lambdaday03_02MethodRef.iml" filepath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/guiguJava8_lambdaday03_02MethodRef.iml" />
       <module fileurl="file://$PROJECT_DIR$/guiguJava8_lambdaday04_01StreamCreate/guiguJava8_lambdaday04_01StreamCreate.iml" filepath="$PROJECT_DIR$/guiguJava8_lambdaday04_01StreamCreate/guiguJava8_lambdaday04_01StreamCreate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_ScreenAndSplit/guiguJava8_lambdaday04_02StreamOptions_ScreenAndSplit.iml" filepath="$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_ScreenAndSplit/guiguJava8_lambdaday04_02StreamOptions_ScreenAndSplit.iml" />
     </modules>
   </component>
 </project>
