@@ -17,11 +17,6 @@ import java.util.Optional;
  * max(Comparator c)          返回流中最大值
  * min(Comparator c)          返回流中最小值
  * forEach(Consumer c)        内部迭代(使用 Collection 接口需要用户去做迭代，称为外部迭代。相反，Stream API 使用内部迭代——它帮你把迭代做了)
- * <p>
- * 归约
- * reduce(T iden, BinaryOperator b) 可以将流中元素反复结合起来，得到一个值。返回 T
- * reduce(BinaryOperator b)   可以将流中元素反复结合起来，得到一个值。 返回 Optional<T>
- * 备注：map 和 reduce 的连接通常称为 map-reduce 模式，因 Google 用它来进行网络搜索而出名。
  */
 public class StreamTerminate {
 
