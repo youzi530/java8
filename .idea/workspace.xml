@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/src/stream/StreamReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/src/stream/StreamCollect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/src/stream/StreamTerminate.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/src/stream/StreamTerminate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +207,7 @@
       <recent name="com.lambdaPratice1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamReduce.test1">
+  <component name="RunManager" selected="JUnit.StreamCollect.test8">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -220,7 +219,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamReduce.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamCollect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
       <extension name="coverage">
         <pattern>
@@ -229,14 +228,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamReduce" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamCollect.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stream" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamReduce.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamCollect.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
       <extension name="coverage">
         <pattern>
@@ -245,30 +259,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamReduce" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamTerminate.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamTerminate" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
       <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTerminate.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamCollect.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
       <extension name="coverage">
         <pattern>
@@ -277,14 +275,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamTerminate" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
       <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTerminate.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamCollect.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
       <extension name="coverage">
         <pattern>
@@ -293,8 +291,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamTerminate" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
+      <option name="METHOD_NAME" value="test8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -302,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamReduce.test1" />
-        <item itemvalue="JUnit.StreamReduce.test" />
-        <item itemvalue="JUnit.StreamTerminate.test7" />
-        <item itemvalue="JUnit.StreamTerminate.test6" />
-        <item itemvalue="JUnit.StreamTerminate.test5" />
+        <item itemvalue="JUnit.StreamCollect.test8" />
+        <item itemvalue="JUnit.StreamCollect" />
+        <item itemvalue="JUnit.StreamCollect.test6" />
+        <item itemvalue="JUnit.StreamCollect.test5" />
+        <item itemvalue="JUnit.StreamCollect.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +329,7 @@
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
-      <workItem from="1634608862727" duration="3933000" />
+      <workItem from="1634608862727" duration="7546000" />
     </task>
     <servers />
   </component>
