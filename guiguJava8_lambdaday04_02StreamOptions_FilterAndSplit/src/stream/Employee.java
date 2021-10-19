@@ -1,45 +1,26 @@
 package stream;
 
+import java.util.Objects;
+
 public class Employee {
 
-	private int id;
+	private Integer id;
 	private String name;
-	private int age;
+	private Integer age;
 	private double salary;
 
-	public Employee() {
-	}
-
-	public Employee(int id){
-		this.id = id;
-	}
-
-	public Employee(int id, int age){
-		this.id = id;
-		this.age = age;
-	}
-
-	public Employee(String name) {
-		this.name = name;
-	}
-
-	public Employee(String name, int age) {
-		this.name = name;
-		this.age = age;
-	}
-
-	public Employee(int id, String name, int age, double salary) {
+	public Employee(Integer id, String name, Integer age, double salary) {
 		this.id = id;
 		this.name = name;
 		this.age = age;
 		this.salary = salary;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -51,11 +32,11 @@ public class Employee {
 		this.name = name;
 	}
 
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
 
-	public void setAge(int age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 
@@ -67,56 +48,26 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	public String show() {
-		return "测试方法引用！";
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Employee employee = (Employee) o;
+		return Double.compare(employee.salary, salary) == 0 && Objects.equals(id, employee.id) && Objects.equals(name, employee.name) && Objects.equals(age, employee.age);
 	}
 
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + age;
-		result = prime * result + id;
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		long temp;
-		temp = Double.doubleToLongBits(salary);
-		result = prime * result + (int) (temp ^ (temp >>> 32));
-		return result;
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj) {
-			return true;
-		}
-		if (obj == null) {
-			return false;
-		}
-		if (getClass() != obj.getClass()) {
-			return false;
-		}
-		Employee other = (Employee) obj;
-		if (age != other.age) {
-			return false;
-		}
-		if (id != other.id) {
-			return false;
-		}
-		if (name == null) {
-			if (other.name != null) {
-				return false;
-			}
-		} else if (!name.equals(other.name)) {
-			return false;
-		}
-		if (Double.doubleToLongBits(salary) != Double.doubleToLongBits(other.salary)) {
-			return false;
-		}
-		return true;
+		return Objects.hash(id, name, age, salary);
 	}
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", age=" + age + ", salary=" + salary + "]";
+		return "Employee{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", age=" + age +
+				", salary=" + salary +
+				'}';
 	}
 }
