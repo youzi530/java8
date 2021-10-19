@@ -12,6 +12,14 @@ import java.util.List;
  */
 public class StreamSort {
 
+    List<Employee> employees = Arrays.asList(
+            new Employee(1, "张三", 18, 9999.99),
+            new Employee(2, "李四", 11, 9999.99),
+            new Employee(3, "王五", 34, 2133),
+            new Employee(4, "赵六", 52, 9999.99),
+            new Employee(5, "王五", 34, 2133),
+            new Employee(3, "王五", 34, 2133)
+    );
 
     @Test
     public void test() {
@@ -23,14 +31,7 @@ public class StreamSort {
 
     @Test
     public void test1() {
-        List<Employee> employees = Arrays.asList(
-                new Employee(1, "张三", 18, 9999.99),
-                new Employee(2, "李四", 11, 9999.99),
-                new Employee(3, "王五", 34, 2133),
-                new Employee(4, "赵六", 52, 9999.99),
-                new Employee(5, "王五", 34, 2133),
-                new Employee(3, "王五", 34, 2133)
-        );
+
         employees.stream()
                 .sorted((e1, e2) -> {
                     if (e1.getAge().equals(e2.getAge())) {

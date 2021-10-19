@@ -8,12 +8,29 @@ public class Employee {
 	private String name;
 	private Integer age;
 	private double salary;
+	private Status status;
 
 	public Employee(Integer id, String name, Integer age, double salary) {
 		this.id = id;
 		this.name = name;
 		this.age = age;
 		this.salary = salary;
+	}
+
+	public Employee(Integer id, String name, Integer age, double salary, Status status) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+		this.status = status;
+	}
+
+	public Status getStatus() {
+		return status;
+	}
+
+	public void setStatus(Status status) {
+		this.status = status;
 	}
 
 	public Integer getId() {
@@ -68,6 +85,13 @@ public class Employee {
 				", name='" + name + '\'' +
 				", age=" + age +
 				", salary=" + salary +
+				", status=" + status +
 				'}';
+	}
+
+	public enum Status{
+		FREE,
+		BUSY,
+		VOCATION;
 	}
 }
