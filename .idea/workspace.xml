@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/src/stream/StreamCollect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/guiguJava8_lambdaday04_03StreamOptions_Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/src/stream/practice/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/guiguJava8_lambdaday04_01StreamCreate/src/stream/Employee.java" root0="FORCE_HIGHLIGHTING" />
@@ -207,7 +217,7 @@
       <recent name="com.lambdaPratice1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamCollect.test8">
+  <component name="RunManager" selected="JUnit.Practice1.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -215,6 +225,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_03StreamOptions_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stream.practice" />
+      <option name="MAIN_CLASS_NAME" value="stream.practice.Practice1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,22 +256,6 @@
       <option name="PACKAGE_NAME" value="stream" />
       <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamCollect.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -300,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice1.test" />
         <item itemvalue="JUnit.StreamCollect.test8" />
         <item itemvalue="JUnit.StreamCollect" />
         <item itemvalue="JUnit.StreamCollect.test6" />
         <item itemvalue="JUnit.StreamCollect.test5" />
-        <item itemvalue="JUnit.StreamCollect.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +339,7 @@
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
-      <workItem from="1634608862727" duration="7546000" />
+      <workItem from="1634608862727" duration="9039000" />
     </task>
     <servers />
   </component>

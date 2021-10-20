@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/guiguJava8_lambdaday03_02MethodRef.iml" filepath="$PROJECT_DIR$/guiguJava8_lambdaday03_02MethodRef/guiguJava8_lambdaday03_02MethodRef.iml" />
       <module fileurl="file://$PROJECT_DIR$/guiguJava8_lambdaday04_01StreamCreate/guiguJava8_lambdaday04_01StreamCreate.iml" filepath="$PROJECT_DIR$/guiguJava8_lambdaday04_01StreamCreate/guiguJava8_lambdaday04_01StreamCreate.iml" />
       <module fileurl="file://$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit.iml" filepath="$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/guiguJava8_lambdaday04_03StreamOptions_Practice.iml" filepath="$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/guiguJava8_lambdaday04_03StreamOptions_Practice.iml" />
     </modules>
   </component>
 </project>
