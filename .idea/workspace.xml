@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/guiguJava8_lambdaday04_03StreamOptions_Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/src/stream/practice/Practice1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/src/stream/practice/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/src/stream/practice/Practice2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,14 +209,14 @@
       <recent name="F:\study\java\IdeaProjects\java_Basic\designPattern_01StrategistModel\src\com\design\case1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream.practice" />
       <recent name="stream" />
       <recent name="com.construtRef" />
       <recent name="com.methodRef" />
       <recent name="com.lambdaPratice3" />
-      <recent name="com.lambdaPratice1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Practice1.test">
+  <component name="RunManager" selected="JUnit.Practice2.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -245,6 +244,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_03StreamOptions_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stream.practice" />
+      <option name="MAIN_CLASS_NAME" value="stream.practice.Practice2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamCollect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
       <extension name="coverage">
@@ -256,22 +271,6 @@
       <option name="PACKAGE_NAME" value="stream" />
       <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamCollect.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Practice2.test" />
         <item itemvalue="JUnit.Practice1.test" />
         <item itemvalue="JUnit.StreamCollect.test8" />
         <item itemvalue="JUnit.StreamCollect" />
         <item itemvalue="JUnit.StreamCollect.test6" />
-        <item itemvalue="JUnit.StreamCollect.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +338,7 @@
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
-      <workItem from="1634608862727" duration="9039000" />
+      <workItem from="1634608862727" duration="9587000" />
     </task>
     <servers />
   </component>
