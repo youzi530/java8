@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/case1/Godness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/case1/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/case1/TestOptional2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/case2/Godness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/case2/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/case2/TestOptional3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_02DefaultStaticMethod/guiguJava8_lambdaday06_02DefaultStaticMethod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_02DefaultStaticMethod/src/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_02DefaultStaticMethod/src/MyFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_02DefaultStaticMethod/src/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_02DefaultStaticMethod/src/TestDefaultInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern_01StrategistModel/src/com/design/case1/策略者模式" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern_01StrategistModel/src/com/design/case1/策略者模式" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday02_03lambdaPratice/src/三个练习" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday02_03lambdaPratice/src/三个练习" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/optionalAPI/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/TestOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/optionalAPI/TestOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday06_01Optional/Employee$Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday06_01Optional/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday06_01Optional/TestOptional.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +223,14 @@
       <recent name="com.construtRef" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestOptional3.test">
+  <component name="RunManager" selected="Application.TestDefaultInterface">
+    <configuration name="TestDefaultInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDefaultInterface" />
+      <module name="guiguJava8_lambdaday06_02DefaultStaticMethod" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -304,23 +304,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOptional.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday06_01Optional" />
-      <option name="PACKAGE_NAME" value="optionalAPI" />
-      <option name="MAIN_CLASS_NAME" value="optionalAPI.TestOptional" />
-      <option name="METHOD_NAME" value="test7" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDefaultInterface" />
         <item itemvalue="JUnit.TestOptional3.test" />
         <item itemvalue="JUnit.TestOptional3" />
         <item itemvalue="JUnit.TestOptional2" />
         <item itemvalue="JUnit.TestOptional2.test" />
-        <item itemvalue="JUnit.TestOptional.test7" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +335,7 @@
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
-      <workItem from="1634608862727" duration="25694000" />
+      <workItem from="1634608862727" duration="27013000" />
     </task>
     <servers />
   </component>
