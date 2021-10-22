@@ -11,5 +11,7 @@ public class TestDefaultInterface {
         SubClass subClass = new SubClass();
         String name = subClass.getName();
         System.out.println(name);
+
+        MyFun.show();
     }
 }
