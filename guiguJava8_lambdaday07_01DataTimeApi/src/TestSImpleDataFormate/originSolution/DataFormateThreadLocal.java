@@ -1,6 +1,4 @@
-package TestSImpleDataFormate.solution;
-
-import javafx.scene.input.DataFormat;
+package TestSImpleDataFormate.originSolution;
 
 import java.text.DateFormat;
 import java.text.ParseException;

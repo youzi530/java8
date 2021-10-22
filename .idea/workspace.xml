@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/TestSImpleDataFormate/solution/DataFormateThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/TestSImpleDataFormate/solution/TestSimpleDataFormate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/TestSImpleDataFormate/java8Solution/TestSimpleDataFormate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/TestSImpleDataFormate/TestSimpleDataFormate.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/TestSImpleDataFormate/problem/TestSimpleDataFormate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday07_01DataTimeApi/TestSImpleDataFormate/TestSimpleDataFormate$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday07_01DataTimeApi/TestSImpleDataFormate/TestSimpleDataFormate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/TestSImpleDataFormate/solution/DataFormateThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/TestSImpleDataFormate/originSolution/DataFormateThreadLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/TestSImpleDataFormate/solution/TestSimpleDataFormate.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/TestSImpleDataFormate/originSolution/TestSimpleDataFormate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,11 +213,11 @@
       <recent name="F:\study\java\IdeaProjects\java_Basic\designPattern_01StrategistModel\src\com\design\case1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TestSImpleDataFormate.java8Solution" />
       <recent name="TestSImpleDataFormate.solution" />
       <recent name="case2" />
       <recent name="" />
       <recent name="stream.practice" />
-      <recent name="stream" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TestSimpleDataFormate (1)">
@@ -231,11 +229,11 @@
       </method>
     </configuration>
     <configuration name="TestSimpleDataFormate (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestSImpleDataFormate.solution.TestSimpleDataFormate" />
+      <option name="MAIN_CLASS_NAME" value="TestSImpleDataFormate.java8Solution.TestSimpleDataFormate" />
       <module name="guiguJava8_lambdaday07_01DataTimeApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestSImpleDataFormate.solution.*" />
+          <option name="PATTERN" value="TestSImpleDataFormate.java8Solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,6 +247,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestSImpleDataFormate.problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSimpleDataFormate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestSImpleDataFormate.originSolution.TestSimpleDataFormate" />
+      <module name="guiguJava8_lambdaday07_01DataTimeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestSImpleDataFormate.originSolution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,10 +312,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestSimpleDataFormate (1)" />
+        <item itemvalue="Application.TestSimpleDataFormate (1)" />
         <item itemvalue="Application.TestSimpleDataFormate" />
         <item itemvalue="Application.TestDefaultInterface" />
         <item itemvalue="JUnit.TestOptional3.test" />
-        <item itemvalue="JUnit.TestOptional3" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +340,7 @@
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
-      <workItem from="1634608862727" duration="30452000" />
+      <workItem from="1634608862727" duration="30782000" />
     </task>
     <servers />
   </component>
