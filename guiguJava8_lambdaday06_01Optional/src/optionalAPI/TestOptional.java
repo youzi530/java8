@@ -1,4 +1,5 @@
-import javafx.scene.media.MediaPlayer;
+package optionalAPI;
+
 import org.junit.Test;
 
 import java.util.Optional;

@@ -7,13 +7,13 @@
 
  使用策略者模式：
     定义个公共接口：MyPredicate里面有方法test(),当上面需求中满足条件的话，就返回boolean类型的数据
-    分别去定义实现类：FilterEmployeeForAge：public boolean test(Employee t) {return t.getAge() <= 35;}
-                    FilterEmployeeForSalary：public boolean test(Employee t) {return t.getSalary() >= 5000;}
+    分别去定义实现类：FilterEmployeeForAge：public boolean test(optionalAPI.Employee t) {return t.getAge() <= 35;}
+                    FilterEmployeeForSalary：public boolean test(optionalAPI.Employee t) {return t.getSalary() >= 5000;}
     主方法里面写了一个方法去判断是引用了哪个类：
-        public List<Employee> filterEmployee(List<Employee> emps, MyPredicate<Employee> mp){
-            List<Employee> list = new ArrayList<>();
+        public List<optionalAPI.Employee> filterEmployee(List<optionalAPI.Employee> emps, MyPredicate<optionalAPI.Employee> mp){
+            List<optionalAPI.Employee> list = new ArrayList<>();
 
-            for (Employee employee : emps) {
+            for (optionalAPI.Employee employee : emps) {
                 if(mp.test(employee)){
                     list.add(employee);
                 }
