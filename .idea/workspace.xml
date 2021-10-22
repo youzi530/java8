@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday05_01ForkJoin/guiguJava8_lambdaday05_01ForkJoin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday05_01ForkJoin/src/ForkJoinCalculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday05_01ForkJoin/src/TestForkJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/guiguJava8_lambdaday06_01Optional.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/TestOptional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -211,14 +211,14 @@
       <recent name="F:\study\java\IdeaProjects\java_Basic\designPattern_01StrategistModel\src\com\design\case1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="stream.practice" />
       <recent name="stream" />
       <recent name="com.construtRef" />
       <recent name="com.methodRef" />
-      <recent name="com.lambdaPratice3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestForkJoin.test2">
+  <component name="RunManager" selected="JUnit.TestOptional.test7">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -230,62 +230,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForkJoin.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday05_01ForkJoin" />
+    <configuration name="TestOptional.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday06_01Optional" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestForkJoin" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestForkJoin.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday05_01ForkJoin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestForkJoin" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestForkJoin.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday05_01ForkJoin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestForkJoin" />
+      <option name="MAIN_CLASS_NAME" value="TestOptional" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pratice3.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_03StreamOptions_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.practice3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stream.practice3" />
-      <option name="MAIN_CLASS_NAME" value="stream.practice3.pratice3" />
+    <configuration name="TestOptional.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday06_01Optional" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOptional" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOptional.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday06_01Optional" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOptional" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOptional.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday06_01Optional" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOptional" />
       <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pratice3.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_03StreamOptions_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.practice3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stream.practice3" />
-      <option name="MAIN_CLASS_NAME" value="stream.practice3.pratice3" />
+    <configuration name="TestOptional.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday06_01Optional" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOptional" />
       <option name="METHOD_NAME" value="test7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -294,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestForkJoin.test2" />
-        <item itemvalue="JUnit.TestForkJoin.test" />
-        <item itemvalue="JUnit.TestForkJoin.test1" />
-        <item itemvalue="JUnit.pratice3.test7" />
-        <item itemvalue="JUnit.pratice3.test6" />
+        <item itemvalue="JUnit.TestOptional.test7" />
+        <item itemvalue="JUnit.TestOptional.test6" />
+        <item itemvalue="JUnit.TestOptional.test4" />
+        <item itemvalue="JUnit.TestOptional.test3" />
+        <item itemvalue="JUnit.TestOptional.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +311,7 @@
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
-      <workItem from="1634608862727" duration="18551000" />
+      <workItem from="1634608862727" duration="24087000" />
     </task>
     <servers />
   </component>
