@@ -1,6 +1,6 @@
-package TestSImpleDataFormate;
+package TestSImpleDataFormate.solution;
 
-import javax.xml.crypto.Data;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -8,17 +8,16 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * 分十次去解析那个时间
+ * 分十次去解析那个时间，导致线程安全问题
  */
 public class TestSimpleDataFormate {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd");
 
         Callable<Date> task = new Callable<Date>() {
             @Override
             public Date call() throws Exception {
-                return simpleDateFormat.parse("20210923");
+                return DataFormateThreadLocal.convet("20210928");
             }
         };
 
@@ -32,6 +31,8 @@ public class TestSimpleDataFormate {
         for (Future<Date> future : results) {
             System.out.println(future.get());
         }
+
+        pool.shutdown();
     }
 
 }
