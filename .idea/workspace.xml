@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/testTemporalAdjuster/TemporalAdjusterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/testTemporalAdjuster/DateTimeFormatterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday07_01DataTimeApi/testJava8DateApi/TestLocalDateTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday07_01DataTimeApi/testJava8DateApi/TestLocalDateTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday07_01DataTimeApi/testTemporalAdjuster/TemporalAdjusterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday07_01DataTimeApi/testTemporalAdjuster/TemporalAdjusterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +219,7 @@
       <recent name="stream.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TemporalAdjusterTest.test2">
+  <component name="RunManager" selected="JUnit.DateTimeFormatterTest.test1">
     <configuration name="TestSimpleDataFormate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestSImpleDataFormate.originSolution.TestSimpleDataFormate" />
       <module name="guiguJava8_lambdaday07_01DataTimeApi" />
@@ -244,11 +244,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DateTimeFormatterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday07_01DataTimeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testDateTimeFormatter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testDateTimeFormatter" />
+      <option name="MAIN_CLASS_NAME" value="testDateTimeFormatter.DateTimeFormatterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeFormatterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday07_01DataTimeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testDateTimeFormatter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testDateTimeFormatter" />
+      <option name="MAIN_CLASS_NAME" value="testDateTimeFormatter.DateTimeFormatterTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeFormatterTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday07_01DataTimeApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testDateTimeFormatter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testDateTimeFormatter" />
+      <option name="MAIN_CLASS_NAME" value="testDateTimeFormatter.DateTimeFormatterTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TemporalAdjusterTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday07_01DataTimeApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testTemporalAdjuster.*" />
+          <option name="PATTERN" value="testDateTimeFormatter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,7 +311,7 @@
       <module name="guiguJava8_lambdaday07_01DataTimeApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testTemporalAdjuster.*" />
+          <option name="PATTERN" value="testDateTimeFormatter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,61 +323,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocalDateTime.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday07_01DataTimeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testJava8DateApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testJava8DateApi" />
-      <option name="MAIN_CLASS_NAME" value="testJava8DateApi.TestLocalDateTime" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLocalDateTime.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday07_01DataTimeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testJava8DateApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testJava8DateApi" />
-      <option name="MAIN_CLASS_NAME" value="testJava8DateApi.TestLocalDateTime" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLocalDateTime.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday07_01DataTimeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testJava8DateApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testJava8DateApi" />
-      <option name="MAIN_CLASS_NAME" value="testJava8DateApi.TestLocalDateTime" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DateTimeFormatterTest.test1" />
+        <item itemvalue="JUnit.DateTimeFormatterTest" />
+        <item itemvalue="JUnit.DateTimeFormatterTest.test" />
         <item itemvalue="JUnit.TemporalAdjusterTest.test2" />
         <item itemvalue="JUnit.TemporalAdjusterTest.test1" />
-        <item itemvalue="JUnit.TestLocalDateTime.test4" />
-        <item itemvalue="JUnit.TestLocalDateTime.test3" />
-        <item itemvalue="JUnit.TestLocalDateTime.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +354,7 @@
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
-      <workItem from="1634608862727" duration="37507000" />
+      <workItem from="1634608862727" duration="37901000" />
     </task>
     <servers />
   </component>
