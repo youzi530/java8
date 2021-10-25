@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday07_01DataTimeApi/src/testZonedxxxx/ZonedxxxxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday08_01Annotation/guiguJava8_lambdaday08_01Annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday08_01Annotation/src/annotation/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday08_01Annotation/src/annotation/MyAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday08_01Annotation/src/annotation/TestAnnotatiom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday07_01DataTimeApi/testTemporalAdjuster/DateTimeFormatterTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -219,7 +223,7 @@
       <recent name="stream.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ZonedxxxxTest.test2">
+  <component name="RunManager" selected="JUnit.TestAnnotatiom.test">
     <configuration name="TestSimpleDataFormate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestSImpleDataFormate.originSolution.TestSimpleDataFormate" />
       <module name="guiguJava8_lambdaday07_01DataTimeApi" />
@@ -244,21 +248,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeFormatterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday07_01DataTimeApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testDateTimeFormatter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testDateTimeFormatter" />
-      <option name="MAIN_CLASS_NAME" value="testDateTimeFormatter.DateTimeFormatterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DateTimeFormatterTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday07_01DataTimeApi" />
       <extension name="coverage">
@@ -270,6 +259,22 @@
       <option name="PACKAGE_NAME" value="testDateTimeFormatter" />
       <option name="MAIN_CLASS_NAME" value="testDateTimeFormatter.DateTimeFormatterTest" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnnotatiom.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday08_01Annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="annotation" />
+      <option name="MAIN_CLASS_NAME" value="annotation.TestAnnotatiom" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -325,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAnnotatiom.test" />
         <item itemvalue="JUnit.ZonedxxxxTest.test2" />
         <item itemvalue="JUnit.ZonedxxxxTest.test1" />
         <item itemvalue="JUnit.ZonedxxxxTest.test" />
         <item itemvalue="JUnit.DateTimeFormatterTest.test1" />
-        <item itemvalue="JUnit.DateTimeFormatterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +359,7 @@
       <workItem from="1634348857459" duration="817000" />
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
-      <workItem from="1634608862727" duration="38415000" />
+      <workItem from="1634608862727" duration="39829000" />
     </task>
     <servers />
   </component>
