@@ -52,7 +52,7 @@ public class TestLocalInterface {
     }
 
     //Function<T,R> 函数型接口  用于处理字符串
-    public static String strHandler(String s, Function<String,String> function){
+    public static String strHandler(String s, Function<String, String> function) {
         return function.apply(s);
     }
 
@@ -63,10 +63,10 @@ public class TestLocalInterface {
     }
 
     //Predicate<T>断言型接口:将指定的字符串（满足条件的）添加到集合中
-    public static List<String> filterStr(List<String> list, Predicate<String> predicate){
+    public static List<String> filterStr(List<String> list, Predicate<String> predicate) {
         List<String> result = new ArrayList<>();
-        for(String str : list){
-            if(predicate.test(str)){
+        for (String str : list) {
+            if (predicate.test(str)) {
                 result.add(str);
             }
         }
@@ -77,8 +77,50 @@ public class TestLocalInterface {
     public void testPredicate() {
         List<String> list = Arrays.asList("hello", "lingqiao", "lambda", "ww");
         List<String> reslut = filterStr(list, (str) -> str.length() > 3);
-        for (String s:reslut) {
+        for (String s : reslut) {
             System.out.println(s);
         }
+    }
+
+    @Test
+    public void testPredicate1() {
+        PredicateImpl predicate = new PredicateImpl();
+        boolean test = predicate.test(11);
+        System.out.println("bool----" + test);
+    }
+
+    @Test
+    public void testPredicate2() {
+        Predicate<Integer> predicate = new Predicate<Integer>() {
+            @Override
+            public boolean test(Integer integer) {
+                return integer % 2 == 0;
+            }
+        };
+        boolean test = predicate.test(11);
+        System.out.println("bool----" + test);
+    }
+
+    @Test
+    public void testPredicate3() {
+        Predicate<Integer> predicate = (x) -> {
+            return x % 2 == 0;
+        };
+        boolean test = predicate.test(11);
+        System.out.println("bool----" + test);
+    }
+
+    @Test
+    public void testPredicate4() {
+        Predicate<Integer> predicate = (x) -> x % 2 == 0;
+        boolean test = predicate.test(11);
+        System.out.println("bool----" + test);
+    }
+}
+
+class PredicateImpl implements Predicate<Integer> {
+    @Override
+    public boolean test(Integer integer) {
+        return integer % 2 == 0;
     }
 }
