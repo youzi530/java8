@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -84,12 +85,27 @@ public class StreamMapping {
     @Test
     public void test4() {
         List<Integer> costBeforeTax = Arrays.asList(100, 200, 300, 400, 500);
-//        costBeforeTax.stream().map((x) -> x)
-//                .forEach(System.out::println);
         double bill = costBeforeTax.stream()
                 .map(cost -> cost + 12 * cost)
                 .reduce((sum, cost) -> sum + cost)  //sum总和
                 .get();
         System.out.println("Total : " + bill);
+    }
+
+    @Test
+    public void test5() {
+        List<Integer> result = Stream.of(Arrays.asList(1, 3), Arrays.asList(5, 6))
+                .flatMap(a -> a.stream())
+                .collect(Collectors.toList());
+        System.out.println(result);
+        System.out.println("---------------------------------------");
+
+        List<Stream<Integer>> collect = Stream.of(Arrays.asList(1, 3), Arrays.asList(5, 6))
+                .map(a -> a.stream())
+                .collect(Collectors.toList());
+        collect.stream()
+                .forEach(x->{
+                    x.forEach(System.out::println);
+                });
     }
 }

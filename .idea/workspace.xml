@@ -219,7 +219,7 @@
       <recent name="stream.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamMapping.test4">
+  <component name="RunManager" selected="JUnit.StreamMapping.test5">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -265,6 +265,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamMapping.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stream" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamMapping" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamMapping.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
       <extension name="coverage">
@@ -281,33 +297,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocalInterface.testPredicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
+    <configuration name="StreamMapping.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.localInterface.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.localInterface" />
-      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
-      <option name="METHOD_NAME" value="testPredicate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLocalInterface.testPredicate5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.localInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.localInterface" />
-      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
-      <option name="METHOD_NAME" value="testPredicate5" />
+      <option name="PACKAGE_NAME" value="stream" />
+      <option name="MAIN_CLASS_NAME" value="stream.StreamMapping" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -315,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamMapping.test5" />
+        <item itemvalue="JUnit.StreamMapping.test1" />
         <item itemvalue="JUnit.StreamMapping.test4" />
         <item itemvalue="JUnit.StreamCollect.test9" />
         <item itemvalue="JUnit.StreamCollect.test6" />
-        <item itemvalue="JUnit.TestLocalInterface.testPredicate5" />
-        <item itemvalue="JUnit.TestLocalInterface.testPredicate" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +345,7 @@
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
       <workItem from="1634608862727" duration="42308000" />
-      <workItem from="1635748562133" duration="3563000" />
+      <workItem from="1635748562133" duration="6879000" />
     </task>
     <servers />
   </component>
