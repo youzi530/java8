@@ -219,7 +219,7 @@
       <recent name="stream.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLocalInterface.testPredicate">
+  <component name="RunManager" selected="JUnit.TestLocalInterface.testPredicate5">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -297,17 +297,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZonedxxxxTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday07_01DataTimeApi" />
+    <configuration name="TestLocalInterface.testPredicate5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testZonedxxxx.*" />
+          <option name="PATTERN" value="com.localInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testZonedxxxx" />
-      <option name="MAIN_CLASS_NAME" value="testZonedxxxx.ZonedxxxxTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.localInterface" />
+      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
+      <option name="METHOD_NAME" value="testPredicate5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -315,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLocalInterface.testPredicate5" />
         <item itemvalue="JUnit.TestLocalInterface.testPredicate" />
         <item itemvalue="JUnit.TestLocalInterface.testPredicate4" />
         <item itemvalue="JUnit.TestLocalInterface.testPredicate1" />
         <item itemvalue="JUnit.TestAnnotatiom.test" />
-        <item itemvalue="JUnit.ZonedxxxxTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +345,7 @@
       <workItem from="1634371183989" duration="4198000" />
       <workItem from="1634434024600" duration="17722000" />
       <workItem from="1634608862727" duration="42308000" />
-      <workItem from="1635748562133" duration="1336000" />
+      <workItem from="1635748562133" duration="2592000" />
     </task>
     <servers />
   </component>

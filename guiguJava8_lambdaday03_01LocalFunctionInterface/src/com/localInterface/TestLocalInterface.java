@@ -116,6 +116,16 @@ public class TestLocalInterface {
         boolean test = predicate.test(11);
         System.out.println("bool----" + test);
     }
+
+    @Test
+    public void testPredicate5() {
+        List names = Arrays.asList("Java", "Scala", "C++", "Haskell", "Lisp");
+        Predicate<String> startsWithJ = (n) -> n.startsWith("J");
+        Predicate<String> fourLetterLong = (n) -> n.length() == 4;
+        names.stream()
+                .filter(startsWithJ.and(fourLetterLong))
+                .forEach((n) -> System.out.println("ceshi:" + n));
+    }
 }
 
 class PredicateImpl implements Predicate<Integer> {
