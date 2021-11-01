@@ -40,19 +40,19 @@ public class StreamMapping {
         System.out.println("---------------------------------");
         Stream<Stream<Character>> streamStream = list.stream()
                 .map(StreamMapping::filterCharacter);
-        streamStream.forEach((sm)->{
+        streamStream.forEach((sm) -> {
             sm.forEach(System.out::println);
         });
 
         System.out.println("---------------------------------");
         Stream<Character> characterStream = list.stream()
                 .flatMap(StreamMapping::filterCharacter);
-        characterStream.forEach((x)-> System.out.println(x));
+        characterStream.forEach((x) -> System.out.println(x));
     }
 
-    public static Stream<Character> filterCharacter(String str){
+    public static Stream<Character> filterCharacter(String str) {
         ArrayList<Character> list = new ArrayList<>();
-        for (Character ch:str.toCharArray()) {
+        for (Character ch : str.toCharArray()) {
             list.add(ch);
         }
         return list.stream();
@@ -61,7 +61,7 @@ public class StreamMapping {
     @Test
     public void test2() {
         List<String> list = Arrays.asList("aaa", "bbbb", "cccc", "ddddd");
-        List list2 = new ArrayList<>();
+        List<Object> list2 = new ArrayList<>();
         list2.add(11);
         list2.add(22);
         list2.add(list);
@@ -78,5 +78,18 @@ public class StreamMapping {
         list2.addAll(list);
 
         System.out.println(list2);
+    }
+
+    // map将集合类(例如列表)元素进行转换的。还有一个 reduce() 函数可以将所有值合并成一个
+    @Test
+    public void test4() {
+        List<Integer> costBeforeTax = Arrays.asList(100, 200, 300, 400, 500);
+//        costBeforeTax.stream().map((x) -> x)
+//                .forEach(System.out::println);
+        double bill = costBeforeTax.stream()
+                .map(cost -> cost + 12 * cost)
+                .reduce((sum, cost) -> sum + cost)  //sum总和
+                .get();
+        System.out.println("Total : " + bill);
     }
 }

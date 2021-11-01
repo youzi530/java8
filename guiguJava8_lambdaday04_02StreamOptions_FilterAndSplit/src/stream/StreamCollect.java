@@ -169,4 +169,12 @@ public class StreamCollect {
                 .collect(Collectors.joining("+"));
         System.out.println(collect);
     }
+
+    @Test
+    public void test9() {
+        // 将字符串换成大写并用逗号链接起来
+        List<String> G7 = Arrays.asList("USA", "Japan", "France", "Germany", "Italy", "U.K.","Canada");
+        String G7Countries = G7.stream().map(x -> x.toUpperCase()).collect(Collectors.joining(", "));
+        System.out.println(G7Countries);
+    }
 }
