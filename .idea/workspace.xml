@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_01LocalFunctionInterface/src/com/consumer/ConsumerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_01LocalFunctionInterface/src/com/consumer/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/src/stream/practice4/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_03StreamOptions_Practice/src/stream/practice4/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +220,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLocalInterface.testPredicate6">
+  <component name="RunManager" selected="JUnit.Test1.test4">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -232,81 +232,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
+    <configuration name="Test1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_03StreamOptions_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.consumer.*" />
+          <option name="PATTERN" value="stream.practice4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.consumer" />
-      <option name="MAIN_CLASS_NAME" value="com.consumer.ConsumerTest" />
+      <option name="PACKAGE_NAME" value="stream.practice4" />
+      <option name="MAIN_CLASS_NAME" value="stream.practice4.Test1" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamCollect.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
+    <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_03StreamOptions_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="stream.practice4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
-      <option name="METHOD_NAME" value="test10" />
+      <option name="PACKAGE_NAME" value="stream.practice4" />
+      <option name="MAIN_CLASS_NAME" value="stream.practice4.Test1" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamCollect.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
+    <configuration name="Test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_03StreamOptions_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="stream.practice4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
-      <option name="METHOD_NAME" value="test12" />
+      <option name="PACKAGE_NAME" value="stream.practice4" />
+      <option name="MAIN_CLASS_NAME" value="stream.practice4.Test1" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTerminate.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
+    <configuration name="Test1.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_03StreamOptions_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="stream.practice4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamTerminate" />
-      <option name="METHOD_NAME" value="test8" />
+      <option name="PACKAGE_NAME" value="stream.practice4" />
+      <option name="MAIN_CLASS_NAME" value="stream.practice4.Test1" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocalInterface.testPredicate6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
+    <configuration name="Test1.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday04_03StreamOptions_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.localInterface.*" />
+          <option name="PATTERN" value="stream.practice4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.localInterface" />
-      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
-      <option name="METHOD_NAME" value="testPredicate6" />
+      <option name="PACKAGE_NAME" value="stream.practice4" />
+      <option name="MAIN_CLASS_NAME" value="stream.practice4.Test1" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestLocalInterface.testPredicate6" />
-        <item itemvalue="JUnit.ConsumerTest.test" />
-        <item itemvalue="JUnit.StreamCollect.test12" />
-        <item itemvalue="JUnit.StreamCollect.test10" />
-        <item itemvalue="JUnit.StreamTerminate.test8" />
+        <item itemvalue="JUnit.Test1.test4" />
+        <item itemvalue="JUnit.Test1.test3" />
+        <item itemvalue="JUnit.Test1.test2" />
+        <item itemvalue="JUnit.Test1.test1" />
+        <item itemvalue="JUnit.Test1.test" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +345,7 @@
       <workItem from="1634434024600" duration="17722000" />
       <workItem from="1634608862727" duration="42308000" />
       <workItem from="1635748562133" duration="6928000" />
-      <workItem from="1635819272705" duration="6738000" />
+      <workItem from="1635819272705" duration="8727000" />
     </task>
     <servers />
   </component>
