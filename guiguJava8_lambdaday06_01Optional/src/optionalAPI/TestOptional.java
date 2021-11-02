@@ -5,6 +5,8 @@ import org.junit.Test;
 import java.util.Optional;
 
 /**
+ * 这是一个可以为null的容器对象。如果值存在则isPresent()方法会返回true，调用get()方法会返回该对象。
+ * <p>
  * 常用方法：
  * <p>
  * Optional.of(T t) : 创建一个 Optional 实例
@@ -86,5 +88,19 @@ public class TestOptional {
         Optional<Employee> op = Optional.ofNullable(new Employee(1001, "张三", 18, 98888.88, Employee.Status.BUSY));
         Optional<String> s = op.flatMap((e) -> Optional.of(e.getName()));
         System.out.println(s.get());
+    }
+
+    // 如果有值则将其返回，否则抛出supplier接口创建的异常。
+    @Test
+    public void test8() {
+        Optional empty = Optional.ofNullable(null);
+        try {
+            //orElseThrow与orElse方法类似。与返回默认值不同，
+            //orElseThrow会抛出lambda表达式或方法生成的异常
+            empty.orElseThrow(NullPointerException::new);
+        } catch (Throwable ex) {
+            //输出: No value present in the Optional instance
+            System.out.println(ex.getMessage());
+        }
     }
 }
