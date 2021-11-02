@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_01LocalFunctionInterface/src/com/consumer/ConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday03_01LocalFunctionInterface/src/com/consumer/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/src/stream/StreamCollect.java" beforeDir="false" afterPath="$PROJECT_DIR$/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/src/stream/StreamCollect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/stream/StreamCollect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit/stream/StreamCollect.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -213,14 +213,14 @@
       <recent name="F:\study\java\IdeaProjects\java_Basic\designPattern_01StrategistModel\src\com\design\case1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.consumer" />
       <recent name="TestSImpleDataFormate.java8Solution" />
       <recent name="TestSImpleDataFormate.solution" />
       <recent name="case2" />
       <recent name="" />
-      <recent name="stream.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamCollect.test12">
+  <component name="RunManager" selected="JUnit.ConsumerTest.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -228,6 +228,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.consumer.ConsumerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,22 +275,6 @@
       <option name="PACKAGE_NAME" value="stream" />
       <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
       <option name="METHOD_NAME" value="test12" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamMapping.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamMapping" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConsumerTest.test" />
         <item itemvalue="JUnit.StreamCollect.test12" />
         <item itemvalue="JUnit.StreamCollect.test10" />
         <item itemvalue="JUnit.StreamTerminate.test8" />
         <item itemvalue="JUnit.StreamMapping.test5" />
-        <item itemvalue="JUnit.StreamMapping.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +345,7 @@
       <workItem from="1634434024600" duration="17722000" />
       <workItem from="1634608862727" duration="42308000" />
       <workItem from="1635748562133" duration="6928000" />
-      <workItem from="1635819272705" duration="5718000" />
+      <workItem from="1635819272705" duration="6738000" />
     </task>
     <servers />
   </component>
