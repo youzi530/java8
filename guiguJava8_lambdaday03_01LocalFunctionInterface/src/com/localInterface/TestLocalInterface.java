@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -125,6 +126,19 @@ public class TestLocalInterface {
         names.stream()
                 .filter(startsWithJ.and(fourLetterLong))
                 .forEach((n) -> System.out.println("ceshi:" + n));
+    }
+
+    @Test
+    public void testPredicate6() {
+        Predicate<String> predicate = (x)->x.length() >0;
+        predicate.test("foo");
+        predicate.test("ewqeqw");
+
+        Predicate<Boolean> nonNull = Objects::nonNull;
+        Predicate<Boolean> isNull = Objects::isNull;
+
+        Predicate<String> isEmpty = String::isEmpty;
+        Predicate<String> isNotEmpty = isEmpty.negate();
     }
 }
 

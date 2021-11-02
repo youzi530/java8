@@ -220,7 +220,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConsumerTest.test">
+  <component name="RunManager" selected="JUnit.TestLocalInterface.testPredicate6">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -280,22 +280,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMapping.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamMapping" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamTerminate.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
       <extension name="coverage">
@@ -312,13 +296,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLocalInterface.testPredicate6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday03_01LocalFunctionInterface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.localInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.localInterface" />
+      <option name="MAIN_CLASS_NAME" value="com.localInterface.TestLocalInterface" />
+      <option name="METHOD_NAME" value="testPredicate6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLocalInterface.testPredicate6" />
         <item itemvalue="JUnit.ConsumerTest.test" />
         <item itemvalue="JUnit.StreamCollect.test12" />
         <item itemvalue="JUnit.StreamCollect.test10" />
         <item itemvalue="JUnit.StreamTerminate.test8" />
-        <item itemvalue="JUnit.StreamMapping.test5" />
       </list>
     </recent_temporary>
   </component>
