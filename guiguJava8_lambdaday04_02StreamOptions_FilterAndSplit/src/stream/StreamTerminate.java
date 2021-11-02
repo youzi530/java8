@@ -3,6 +3,7 @@ package stream;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
@@ -64,7 +65,7 @@ public class StreamTerminate {
     @Test
     public void test4() {
         Optional<Employee> first = employees.stream()
-                .filter((e)->e.getStatus().equals(Employee.Status.BUSY))
+                .filter((e) -> e.getStatus().equals(Employee.Status.BUSY))
                 .findAny();
         System.out.println(first.get());
     }
@@ -89,6 +90,22 @@ public class StreamTerminate {
         Optional<Double> min = employees.stream()
                 .map(Employee::getSalary)
                 .min(Double::compare);
+        System.out.println(min.get());
+    }
+
+    @Test
+    public void test8() {
+        Optional<Employee> max = employees.stream().max(Comparator.comparing(x -> x.getId()));
+        System.out.println(max.get());
+
+        Optional<Employee> min = employees.stream().min(new Comparator<Employee>() {
+            @Override
+            public int compare(Employee o1, Employee o2) {
+                if (o1.getId() > o2.getId()) return -1;
+                if (o1.getId() < o2.getId()) return 1;
+                return 0;
+            }
+        });
         System.out.println(min.get());
     }
 }
