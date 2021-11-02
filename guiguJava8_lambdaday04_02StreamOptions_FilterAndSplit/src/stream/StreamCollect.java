@@ -225,4 +225,18 @@ public class StreamCollect {
         List<String> list1 = Arrays.asList("Geeks", "for", "gfg","GeeksforGeeks", "GeeksQuiz");
         list1.stream().mapToInt(str->str.length()).forEach(System.out::println);
     }
+
+    //peek
+    //可以使用peek方法，peek方法可只包含一个空的方法体，只要能设置断点即可，但有些IDE不允许空，可以如下文示例，简单写一个打印逻辑。
+    @Test
+    public void test12() {
+
+        List<Employee> list2 = employees.stream()
+                .filter(f -> f.getName().startsWith("p"))
+                .peek(t -> {
+                    System.out.println(t.getName());
+                })
+                .collect(Collectors.toList());
+        System.out.println(list2);
+    }
 }
