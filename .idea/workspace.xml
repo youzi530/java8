@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f895085-7cd9-4488-9ece-872cbb4d4da7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/ClassDemo/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guiguJava8_lambdaday06_01Optional/src/ClassDemo/testDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +218,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestOptional.test10">
+  <component name="RunManager" selected="JUnit.TestAnnotatiom.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -232,33 +230,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamCollect.test15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
+    <configuration name="TestAnnotatiom.show1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday08_01Annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
-      <option name="METHOD_NAME" value="test15" />
+      <option name="PACKAGE_NAME" value="annotation" />
+      <option name="MAIN_CLASS_NAME" value="annotation.TestAnnotatiom" />
+      <option name="METHOD_NAME" value="show1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamCollect.test16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guiguJava8_lambdaday04_02StreamOptions_FilterAndSplit" />
+    <configuration name="TestAnnotatiom.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guiguJava8_lambdaday08_01Annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stream" />
-      <option name="MAIN_CLASS_NAME" value="stream.StreamCollect" />
-      <option name="METHOD_NAME" value="test16" />
+      <option name="PACKAGE_NAME" value="annotation" />
+      <option name="MAIN_CLASS_NAME" value="annotation.TestAnnotatiom" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAnnotatiom.test" />
+        <item itemvalue="JUnit.TestAnnotatiom.show1" />
         <item itemvalue="JUnit.TestOptional.test10" />
         <item itemvalue="JUnit.TestOptional.test6" />
         <item itemvalue="JUnit.TestOptional.test8" />
-        <item itemvalue="JUnit.StreamCollect.test16" />
-        <item itemvalue="JUnit.StreamCollect.test15" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +343,7 @@
       <workItem from="1634434024600" duration="17722000" />
       <workItem from="1634608862727" duration="42308000" />
       <workItem from="1635748562133" duration="6928000" />
-      <workItem from="1635819272705" duration="19001000" />
+      <workItem from="1635819272705" duration="20437000" />
     </task>
     <servers />
   </component>
