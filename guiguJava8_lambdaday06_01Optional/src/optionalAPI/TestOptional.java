@@ -2,6 +2,8 @@ package optionalAPI;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -80,6 +82,10 @@ public class TestOptional {
         Optional<Employee> op = Optional.ofNullable(new Employee(1001, "张三", 18, 98888.88, Employee.Status.BUSY));
         Optional<String> s = op.map((e) -> e.getName());
         System.out.println(s.get());
+
+        Optional<String> name = Optional.of("Sanaulla");
+        Optional<String> s1 = name.map((value) -> value.toUpperCase());
+        System.out.println(s1.get());
     }
 
     //flatMap
@@ -88,9 +94,13 @@ public class TestOptional {
         Optional<Employee> op = Optional.ofNullable(new Employee(1001, "张三", 18, 98888.88, Employee.Status.BUSY));
         Optional<String> s = op.flatMap((e) -> Optional.of(e.getName()));
         System.out.println(s.get());
+
+        Optional<String> name = Optional.of("Sanaulla");
+        Optional<String> s1 = name.flatMap((value) -> Optional.of(value.toUpperCase()));
+        System.out.println(s1.get());
     }
 
-    // 如果有值则将其返回，否则抛出supplier接口创建的异常。
+    //orElseThrow  如果有值则将其返回，否则抛出supplier接口创建的异常。
     @Test
     public void test8() {
         Optional empty = Optional.ofNullable(null);
@@ -102,5 +112,29 @@ public class TestOptional {
             //输出: No value present in the Optional instance
             System.out.println(ex.getMessage());
         }
+    }
+
+    //ifPresent isPresent() 如果值存在，返回 true，否则返回 false
+    @Test
+    public void test9() {
+        Optional<Employee> op = Optional.ofNullable(new Employee(1001, "张三", 18, 98888.88, Employee.Status.BUSY));
+        Optional<String> name = Optional.of("Sanaulla");
+//        name.isPresent((s) -> {
+//            System.out.println(s); // 输出 Sanaulla
+//        });
+    }
+
+    //filter
+    @Test
+    public void test10() {
+        Optional<String> name = Optional.of("Sanaulla");
+        Optional<String> longName = name.filter((value) -> value.length() > 6);
+        String s = longName.orElse("The name is less than 6 characters");
+        System.out.println(s);
+
+        Optional<String> anotherName = Optional.of("Sana");
+        Optional<String> shortName = anotherName.filter((value) -> value.length() > 6);
+        //输出: name长度不足6字符
+        System.out.println(shortName.orElse("The name is less than 6 characters"));
     }
 }
